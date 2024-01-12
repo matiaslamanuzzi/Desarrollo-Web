@@ -24,96 +24,38 @@ li{
 
 /*Inicio (html 1)*/
 
-.text1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.subtitulo1{
-    color: white;
-    font-size: 300%;
-    margin: auto;
-}
+
+
+
 
 /*Inicio (html 1)*/
 
 /*Contacto (html 2)*/
-.text2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.subtitulo2{
-    color: white;
-    font-size: 300%;
-    margin: auto;
-}
-article .form2 li{
-    color: white;
-    font-size: 100%;
-}
+
+
+
+
+
 /*Contacto (html 2)*/
 
 /*Gastronomia (html 3)*/
-.text3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.subtitulo3{
-    color: white;
-    font-size: 300%;
-    margin: auto;
-}
-.img3{
-    margin-left: auto;
-}
-.parrafo3{
-    text-align: left;
-    float: right;
-}
-.sub3{
-    color: white;
-    
-}
-.comida3{
-    margin: 1%;
-    text-align: left;
-    margin-right: auto;
-}
+
+
+
+
+
 /*Gastronomia (html 3)*/
 
 /*Promociones (html 4)*/
-.img4{
-    display:flex;
-    margin: auto;
-}
-.parrafo4{
-    text-align: left;
-    float: center;
-    margin-inline: 10%;
-    margin: 1%;
-}
-.text4{
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.subtitulo4{
-    color: white;
-    font-size: 300%;
-    margin: auto;
-}
+
+
+
 
 /*Promociones (html 4)*/
 
 /*Sobre Nosotros (html 5)*/
-.parrafo5{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin-inline-start: 50%;
-    margin-inline: 15%;
-}
-.subtitulo5{
-    color: white;
-    font-size: 300%;
-    margin: auto;
-}
-.img5{
-    margin: 1%;
-}
+
+
+
 /*Sobre Nosotros (html 5)*/
 
