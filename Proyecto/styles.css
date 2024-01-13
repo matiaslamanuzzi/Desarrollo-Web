@@ -1,25 +1,22 @@
 /* selector { propiedad: valor;}
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
-body{font-family: 'Roboto', sans-serif;
-background-color: black;
-}
+
+
 /*Header*/
-h1{
-    color: white;
+body{
+    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-a{
+h1{
     color: white;
-    list-style: none;
-    text-decoration: none;
+}
+h2{
+    color: white;
 }
 p{
     color: white;
 }
-li{
-    list-style: none;
-}
+
 /*Header*/
 
 /*Inicio (html 1)*/
