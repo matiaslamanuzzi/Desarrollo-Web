@@ -2,10 +2,11 @@
 */
 
 
-/*Header*/
+/*Head*/
+
 body{
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     color: white;
@@ -13,46 +14,176 @@ h1{
 h2{
     color: white;
 }
+h3{
+    color: white;
+}
 p{
     color: white;
 }
+.navegador{
+display: inline-flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
 
-/*Header*/
+/*Head*/
 
-/*Inicio (html 1)*/
+/*Index*/
+.subtitulo1{
+    margin-left: 50px;
+}
+
+.imagen1_abajo{
+    text-align: right;
+}
+.text1{
+    text-align: right;
+    padding-right: 50px;
+}
+.img1{
+    margin-left: 50px;
+}
+.parrafo1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/*Index*/
+/*Contacto */
+
+li{
+    color: white;
+    list-style-type: none
+}
+.subtitulo2{
+    margin-left: 50px;
+}
+.img2{
+    margin-left: 50px;
+}
+.text2{
+    margin-left: 50px;
+}
+.form1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px 1600px 20px 50px;
+    padding-right: 20px;
+
+}
+.enviar{
+    margin: 50px 0px 0px 0px;
+}
+
+/*Contacto */
+/*Gastronomia*/
+.subtitulo3{
+    margin-left: 50px;
+}
+.div3_up{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.img3{
+    margin-left: 50px;
+    width: 450px;
+}
+.parrafo3{
+    margin-left: 70px;
+    text-align: left;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 50px 50px 50px 50px;
+}
+.div3{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    flex-direction: column;
+    margin: 50px 50px 50px 50px;
+}
+.sub3{
+    margin-left: 20px;
+    
+}
+.comida3{
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 800px;
+    flex-wrap: wrap;
+}
+/*Gastronomia */
+
+/*Promociones */
+.subtitulo4{
+    margin-left: 50px;
+}
+.div_arriba{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px 50px 20px 50px;
+
+}
+.img4{
+    margin: 50px 20px 20px 50px;
+    width: 900px;
+    padding-bottom: 30px;
+}
+.parrafo_arriba{
+    margin: 20px 80px 20px 20px;
+    font-size: 25px;
+   padding-bottom: 10px;
+}
+.div_abajo{
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 50px 50px 50px 50px;
+    
+}
+.parrafo4{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+/*Promociones */
+
+/*Informacion */
+.subtitulo5{
+    margin-left: 50px;
+}
+.div_info{
+    display: flex;
+}
+.parrafo5{
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 100px 50px 100px 50px;
+    text-align: center;
+    
+}
+.img5{
+    margin: 20px 50px 50px 50px;
+    padding: 20px 20px 0px 0px;
+}
+.redes{
+    border: 1px solid white; 
+    border-radius: 10px;
+    margin: 50px 50px 50px 50px;
+    width: 500px;
+}
 
 
-
-
-
-/*Inicio (html 1)*/
-
-/*Contacto (html 2)*/
-
-
-
-
-
-/*Contacto (html 2)*/
-
-/*Gastronomia (html 3)*/
-
-
-
-
-
-/*Gastronomia (html 3)*/
-
-/*Promociones (html 4)*/
-
-
-
-
-/*Promociones (html 4)*/
-
-/*Sobre Nosotros (html 5)*/
-
-
-
-/*Sobre Nosotros (html 5)*/
+/*Informacion */
 
