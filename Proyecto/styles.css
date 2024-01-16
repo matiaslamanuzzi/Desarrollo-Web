@@ -83,7 +83,7 @@ li{
 /*Contacto */
 /*Gastronomia*/
 .subtitulo3{
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .div3_up{
     display: flex;
@@ -191,49 +191,88 @@ li{
 
 /* formato celular iphone SE */
 
-/* Informacion */
+
 @media (max-width:375px) {
-    .image_arriba{
-        width: 200px;
-        height: 200px;
+
+    /* Promociones */
+
+    .imagen1_arriba{
+        width: 160px;
+        height: 100px;
+        padding-left: 100px;
     }
     .navegador{
         font-size: 10px;
-        
-        
-        
+        padding: 0px 50px 0px 10px;
     }
-    .subtitulo5{
-        font-size: 15px;
-    }
-    .img5{
-        min-width: 100px;
-        height: 150px;
-        display: grid;
-        place-content: center;
-        
-    }
-    .parrafo5{
-        font-size: 12px;
-        padding: 10px 10px 10px 10px;
-        margin-left: 20px;
-    }
-
- 
-
-
-
-    .div_info{
+    .div_arriba{
         flex-wrap: wrap;
+        width: 300px;
+        margin: 0px 0px 0px 30px; 
     }
-    .imagen1_abajo{
-        width: 200px;
-        height: 200px;
+    .div_abajo{
+        width: 300px;
+        margin: 20px 0px 0px 30px;
     }
+   .parrafo_arriba{
+    font-size: 10px;
+    margin: 0px 0px 0px 0px;
+    padding-right: 30px;
+   }
+   .parrafo_separado{
+    font-size: 10px;
+    padding-right: 20px;
+   }
+   .parrafo4{
+    font-size: 10px;
+    
+   }
+   .img4{
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px 0px 25px;
+   }
+   .imagen1_abajo{
+    width: 150px;
+    height: 100px;
+    padding-left: 100px;
+   }
+   .text1{
+    padding: 60px 0px 20px 0px;
+    font-size: 10px;
+   }
 
+   /* Promociones */
 
+   /* index */
+   
+   .subtitulo1{
+    font-size: 20px;
+    margin: 10px 10px 20px 150px;
+}
+.text1{
+    margin: 10px 10px 30px 10px;
+}
+.img1{
+    width: 250px;
+    height: 300px;
+}
+.parrafo1{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+.imagen1_determinada{
+    width: 150px;
+    height: 100px;
+    
+}
+     /* index */
+  
 
     
+
+   
 }
 
 
