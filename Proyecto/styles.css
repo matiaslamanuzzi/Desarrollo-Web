@@ -48,7 +48,7 @@ a{
 }
 .parrafo1{
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 20gpx;
 }
 
 /*Index*/
@@ -69,11 +69,11 @@ li{
 }
 .form1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid white;
     border-radius: 10px;
     margin: 20px 1600px 20px 50px;
-    padding-right: 20px;
+    padding: 20px 20px 20px 0px;
 
 }
 .enviar{
@@ -83,7 +83,7 @@ li{
 /*Contacto */
 /*Gastronomia*/
 .subtitulo3{
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .div3_up{
     display: flex;
@@ -163,14 +163,18 @@ li{
 }
 .div_info{
     display: flex;
+    
 }
 .parrafo5{
-    margin: 20px 20px 20px 20px;
-    font-size: 30px;
+    margin: 40px 50px 50px 0px;
+    font-size: 25px;
     border: 1px solid white;
     border-radius: 10px;
     padding: 100px 50px 100px 50px;
     text-align: center;
+    
+    
+    
     
 }
 .img5{
@@ -183,7 +187,61 @@ li{
     margin: 50px 50px 50px 50px;
     width: 500px;
 }
-
-
 /*Informacion */
+
+/* formato celular iphone SE */
+
+/* Informacion */
+@media (max-width:375px) {
+    .image_arriba{
+        width: 200px;
+        height: 200px;
+    }
+    .navegador{
+        font-size: 10px;
+        
+        
+        
+    }
+    .subtitulo5{
+        font-size: 15px;
+    }
+    .img5{
+        min-width: 100px;
+        height: 150px;
+        display: grid;
+        place-content: center;
+        
+    }
+    .parrafo5{
+        font-size: 12px;
+        padding: 10px 10px 10px 10px;
+        margin-left: 20px;
+    }
+
+ 
+
+
+
+    .div_info{
+        flex-wrap: wrap;
+    }
+    .imagen1_abajo{
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    
+}
+
+
+  
+    
+        
+       
+       
+    
+  
 
