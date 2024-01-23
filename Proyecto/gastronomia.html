@@ -5,44 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+
 </head>
 
 <body>
     <header>
     
-    <img src="Hotel_Chocolate-logo-7279A69C68-seeklogo.jpg"> 
-    <Nav>
-        <Ul class="navegador">
-            <li>
-                <a class="enlace5" href="index.html">Inicio</a>
-            <li>
-                <a class="enlace5" href="contacto.html">Contacto</a>
-            <li>
-                <a class="enlace5" href="gastronomia.html">Gastronomia</a>
-            <li>
-                <a class="enlace5" href="promociones.html">Promociones</a>
-            <li>
-                <a class="enlace5" href="informacion.html">Informacion</a>
-            </li>
-        </ul>     
-    </Nav> 
+    <img src="/imagenes/Hotel_Chocolate-logo-7279A69C68-seeklogo.jpg"> 
+
+    <nav class="navbar navbar-expand-lg bg-secondary bg-gradient ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="contacto.html">Contacto</a>
+              <a class="nav-link active" href="gastronomia.html">Gastronomia</a>
+              <a class="nav-link active" href="promociones.html">Promociones</a>
+              <a class="nav-link active" href="informacion.html">Informacion</a>
+            </div>
+          </div>
+        </div>
+    </nav>
     <h2 class="subtitulo3">GASTRONOMIA</h2>
     </header>
     <main>
         
         <div class="div3_up">
-            <img class="img3" src="25668192.jpg" alt="">
+            <img class="img3" src="/imagenes/25668192.jpg" alt="">
         
             <p class="parrafo3">
                     
-            Nuestro restaurant ofrece una variada carta que incluye diversidad de comidas saludables de elaboración
+            Nuestro restaurante ofrece una variada carta que incluye diversidad de comidas saludables de elaboración
             casera, platos internacionales, opciones apto celíacos, veganas y vegetarianas.
 
             En el lobby alto del Hotel se encuentra emplazado el nivel restaurant donde se brindan los servicios de
@@ -54,51 +55,58 @@
             bebida sin alcohol por persona. También contamos con opciones de menú infantil.
             </p>
         </div>
-        <div class="div3">
-            
+        <div class="div3 container ">
+            <div>
+                <h3 class="sub3">DESAYUNO</h3>
+                <p class="comida3">
+                        <strong>Buffet:</strong> Desayuno Buffet incluido en la tarifa. El mismo consiste en variedad de opciones entre las que podrá
+                        encontrar: café, té, leche, leche chocolatada, jugo de naranja, medialunas dulces y saladas, yogurt,
+                        variedad de cereales, panes lactales blancos y negros, quesos y mermeladas, frutas de estación, huevos
+                        revueltos, jamón y queso, variedad de budines y tartas dulces de nuestra pastelería.
+                </p>
+    
+                <p class="comida3">
+                        <strong>Desayuno Brunch:</strong> Los días Domingo ofrecemos nuestro desayuno brunch con horario extendido hasta las
+                        12:00hs., que incluye todos los productos del Buffet con más opciones saladas y champagne libre.
+                </p>
+                <p class="comida3">
+                        <strong> Desayuno en la habitación:</strong> Podrá solicitar si lo desea, el servicio de desayuno a su habitación.
+                </p>
+                    
+                <p class="comida3">
+                        <strong>Desayuno en la habitación:</strong> Podrá solicitar si lo desea, el servicio de desayuno a su habitación.
+                </p>
+             
+            </div>
+            <div>
+                <h3 class="sub3">ALMUERZOS Y CENAS</h3>
+                <p class="comida3">
+                        <strong>En Nuestro Restaurant:</strong> El restaurant de cocina internacional cuenta con una amplia variedad de platos con
+                        carnes vacunas, de aves y pescados, pastas y pizzas y una cantidad numerosa de guarniciones y opciones de
+                        bajas calorías.
+                </p>
+                    
+                <p class="comida3">
+                        <strong>En su Habitación:</strong> Puede solicitar el servicio en los horarios definidos.
+                </p>
+                    
+                <p class="comida3">
+                        <strong>Media pensión o pensión completa:</strong> Algunos paquetes de alojamiento podrían incluir este servicio o venderse
+                        como opcionales una vez que ud. se encuentre alojado. El sistema incluye a elección: entrada, plato
+                        principal, postre y bebida sin alcohol, con variedad de opciones.
+                </p>
+                    
+                <p class="comida3">
+                        <strong>Menú Infantil:</strong> Pensado para los niños, opciones con las preferencias típicas de los más chicos.
+                </p>
+
+            </div>
             
             
 
-            <h3 class="sub3">DESAYUNO</h3>
-            <p class="comida3">
-                    <strong>Buffet:</strong> Desayuno Buffet incluido en la tarifa. El mismo consiste en variedad de opciones entre las que podrá
-                    encontrar: café, té, leche, leche chocolatada, jugo de naranja, medialunas dulces y saladas, yogurt,
-                    variedad de cereales, panes lactales blancos y negros, quesos y mermeladas, frutas de estación, huevos
-                    revueltos, jamón y queso, variedad de budines y tartas dulces de nuestra pastelería.
-            </p>
-
-            <p class="comida3">
-                    <strong>Desayuno Brunch:</strong> Los días Domingo ofrecemos nuestro desayuno brunch con horario extendido hasta las
-                    12:00hs., que incluye todos los productos del Buffet con más opciones saladas y champagne libre.
-            </p>
-            <p class="comida3">
-                    <strong> Desayuno en la habitación:</strong> Podrá solicitar si lo desea, el servicio de desayuno a su habitación.
-            </p>
+            
                 
-            <p class="comida3">
-                    <strong>Desayuno en la habitación:</strong> Podrá solicitar si lo desea, el servicio de desayuno a su habitación.
-            </p>
-                
-            <h3 class="sub3">ALMUERZOS Y CENAS</h3>
-            <p class="comida3">
-                    <strong>En Nuestro Restaurant:</strong> El restaurant de cocina internacional cuenta con una amplia variedad de platos con
-                    carnes vacunas, de aves y pescados, pastas y pizzas y una cantidad numerosa de guarniciones y opciones de
-                    bajas calorías.
-            </p>
-                
-            <p class="comida3">
-                    <strong>En su Habitación:</strong> Puede solicitar el servicio en los horarios definidos.
-            </p>
-                
-            <p class="comida3">
-                    <strong>Media pensión o pensión completa:</strong> Algunos paquetes de alojamiento podrían incluir este servicio o venderse
-                    como opcionales una vez que ud. se encuentre alojado. El sistema incluye a elección: entrada, plato
-                    principal, postre y bebida sin alcohol, con variedad de opciones.
-            </p>
-                
-            <p class="comida3">
-                    <strong>Menú Infantil:</strong> Pensado para los niños, opciones con las preferencias típicas de los más chicos.
-            </p>
+            
             
         </div>
         
@@ -108,13 +116,13 @@
     <footer>
 
         <div class="imagen1_abajo">
-            <img  src="Hotel_Chocolate-logo-7279A69C68-seeklogo.jpg">
+            <img  src="/imagenes/Hotel_Chocolate-logo-7279A69C68-seeklogo.jpg">
         </div>
         <p class="text1">Hotel Chocolat 2023 todos los derechos reservados. </p>
         
             
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>

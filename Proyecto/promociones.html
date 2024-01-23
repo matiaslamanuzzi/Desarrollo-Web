@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" href="/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
 
 
 </head>
@@ -18,22 +17,24 @@
 <body>
     <header>
 
-        <img class="imagen1_arriba" src="Hotel_Chocolate-logo-7279A69C68-seeklogo.jpg">
-        <Nav>
-            <Ul class="navegador">
-                <li>
-                    <a class="enlace4" href="index.html">Inicio</a>
-                <li>
-                    <a class="enlace4" href="contacto.html">Contacto</a>
-                <li>
-                    <a class="enlace4" href="gastronomia.html">Gastronomia</a>
-                <li>
-                    <a class="enlace4" href="promociones.html">Promociones</a>
-                <li>
-                    <a class="enlace4" href="informacion.html">Informacion</a>
-                </li>
-            </ul>     
-        </Nav>
+        <img class="imagen1_arriba" src="/imagenes/Hotel_Chocolate-logo-7279A69C68-seeklogo.jpg">
+
+        <nav class="navbar navbar-expand-lg bg-secondary bg-gradient ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" href="contacto.html">Contacto</a>
+                  <a class="nav-link active" href="gastronomia.html">Gastronomia</a>
+                  <a class="nav-link active" href="promociones.html">Promociones</a>
+                  <a class="nav-link active" href="informacion.html">Informacion</a>
+                </div>
+              </div>
+            </div>
+        </nav>
         <h2 class="subtitulo4">PROMOCIONES</h2>
     </header>
     <main>  
@@ -41,61 +42,63 @@
         <section>
             <div class="div_arriba">
 
-                <img class="img4" src="image.jpg">
-                <ul>
-                    <li>
-                        <p class="parrafo_arriba">
-                            <strong>Ofertas y promociones paquetizadas</strong>: estancia mas experiencias.
-            
-                            Atrae a tus clientes con paquetes especiales donde puedan disfrutar del alojamiento acompañado de alguna
-                            experiencia atractiva y única. A continuación te proponemos algunos ejemplos de actividades y regalos con
-                            los que acompañar las estancias de tu hotel o casa rural:
-                        </p>
-
-                    </li>
+                <img class="img4" src="/imagenes/image.jpg">
+                <div>
+                    <p class="parrafo_arriba">
+                        <strong>Ofertas y promociones paquetizadas</strong>: estancia mas experiencias.
+        
+                        Atrae a tus clientes con paquetes especiales donde puedan disfrutar del alojamiento acompañado de alguna
+                        experiencia atractiva y única. A continuación te proponemos algunos ejemplos de actividades y regalos con
+                        los que acompañar las estancias de tu hotel o casa rural:
+                    </p>
+                    <ul>
+                    
                 
-                    <li>
-                        <p class="parrafo_separado">- Para grupos de 6 o más, ruta de senderismo guiada y almuerzo incluido por reservas de fin de semana
-                            completo.
-                        </p>    
-                    </li>
-                    <li> 
-                        <p class="parrafo_separado">
-                            - Ofertas especiales para colectivos y grupos. Atrae a tu alojamiento a un colectivo determinado como
-                        escaladores, ciclistas, motoristas, recién casados… Ofréceles incentivos exclusivos extra como descuentos o
-                        servicios extra.
-                        </p>
-                    </li>
-                    <li>
-                        <p class="parrafo_separado">
-                            - Fin de semana con vuelo en globo.
-                        </p>
-                    </li>
-                    <li>
-                        <p class="parrafo_separado">
-                            - Dos noches + 1 degustación de tapas típicas + 1 cena con vino.
-                        </p>
-                    </li>
-                    <li>
-                        <p class="parrafo_separado">
-                            - Estancias de lunes a jueves con circuito de spa y masaje relajante de 45 min gratis.
-                        </p>
-                    </li>
-                    <li>
-                        <p class="parrafo_separado">
-                            - Fin de semana con ruta guiada en 4x4 y almuerzo en la sierra.
-                        </p>
-                    </li>
-                    <li>
-                        <p class="parrafo_separado">
-                            - Fin de semana con curso de iniciación a la equitación, al surf, bautismo submarino
-                        </p>
-                    </li>
-                </ul>
+                        <li>
+                            <p class="parrafo_separado">- Para grupos de 6 o más, ruta de senderismo guiada y almuerzo incluido por reservas de fin de semana
+                                completo.
+                            </p>    
+                        </li>
+                        <li> 
+                            <p class="parrafo_separado">
+                                - Ofertas especiales para colectivos y grupos. Atrae a tu alojamiento a un colectivo determinado como
+                            escaladores, ciclistas, motoristas, recién casados… Ofréceles incentivos exclusivos extra como descuentos o
+                            servicios extra.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="parrafo_separado">
+                                - Fin de semana con vuelo en globo.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="parrafo_separado">
+                                - Dos noches + 1 degustación de tapas típicas + 1 cena con vino.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="parrafo_separado">
+                                - Estancias de lunes a jueves con circuito de spa y masaje relajante de 45 min gratis.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="parrafo_separado">
+                                - Fin de semana con ruta guiada en 4x4 y almuerzo en la sierra.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="parrafo_separado">
+                                - Fin de semana con curso de iniciación a la equitación, al surf, bautismo submarino
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                
 
                     
             </div>
-            <div class="div_abajo">
+            <div class="div_abajo container-xxl">
                 <p class="parrafo4">
                         <strong>Multiaventura</strong>: Normalmente utilizada para atraer a público más joven, grupos y familias, esta
                         oferta suelen cautivar a los huéspedes más activos y aventureros. Incentivar la oferta con packs de
@@ -130,15 +133,15 @@
 
     <footer>
 
-         <div class="imagen1_abajo" >
-            <img class="imagen1_determinada"  src="Hotel_Chocolate-logo-7279A69C68-seeklogo.jpg">
+        <div class="imagen1_abajo" >
+            <img class="imagen1_determinada"  src="/imagenes/Hotel_Chocolate-logo-7279A69C68-seeklogo.jpg">
         
             
-         </div>
-         <p class="text1">Hotel Chocolat 2023 todos los derechos reservados. </p>
+        </div>
+        <p class="text1">Hotel Chocolat 2023 todos los derechos reservados. </p>
         
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
