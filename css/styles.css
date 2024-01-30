@@ -1,312 +1,133 @@
-/* selector { propiedad: valor;}
-
-
-
-/*Head*/
-
-body{
-    background-color: black;
-    
+/* HEAD  */
+body {
+  background-color: black;
 }
-h2{
-    color: white;
-    margin: 10px 10px 10px 10px;
-
+body h2 {
+  color: white;
 }
-h3{
-    color: white;
+body h3 {
+  color: white;
 }
-p{
-    color: white;
-} 
-
-a{
-    
-    padding: 10px 10px 10px 10px;
+body p {
+  color: white;
+}
+body a {
+  padding: 10px 10px 10px 10px;
 }
 
-
-/*Head*/
-/* Header */
-
-  
-.container-fluid{
-    margin-left: 50px;
-}
-.navbar-nav{
-    padding: 10px 10px 10px 10px;
-}
-.navbar-brand{
-    font-size: 30px;
-}
-/* Header */
-/* Index */
- .subtitulo1{
-    margin: 20px 20px 20px 50px;
+/* HEAD  */
+/* HEADER */
+.imagen_arriba {
+  width: 200px;
 }
 
-.imagen1_abajo{
-    text-align: right;
+.navbar {
+  padding: 10px 10px 10px 10px;
 }
-.text1{
-    text-align: right;
-    padding-right: 50px;
+.navbar .navbar-brand {
+  font-size: 30px;
 }
-.img1{
-    margin-left: 50px;
-    border-radius: 50px;
-}
-.parrafo1{
-    margin: 10px 10px 10px 50px;
-    font-size: 18px;
+.navbar .container-fluid {
+  margin-left: 50px;
 }
 
-/*Index*/
-/*Contacto */
-
- li{
-    color: white;
-    list-style-type: none
-}
-.subtitulo2{
-    margin: 20px 20px 20px 50px;
-}
-.img2{
-    margin-left: 50px;
-    border-radius: 50px;
-}
-.text2{
-    margin: 10px 10px 10px 50px;
-    font-size: 20px;
-}
-.form1{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 0px 0px 80px 50px;
-    padding: 20px 50px 20px 50px;
-    width: 650px;
-
-}
-.enviar{
-    margin: 20px 0px 20px 0px;
-    padding: 10px 30px 10px 30px;
+.subtitulo {
+  margin: 20px 20px 20px 50px;
 }
 
-/*Contacto */
-/*Gastronomia*/
- .subtitulo3{
-    margin: 20px 20px 20px 50px;
+/* HEADER */
+/* FOOTER */
+.cont-footer {
+  text-align: right;
 }
-.div3_up{
-    display: flex;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-right: 200px;
-}
-.img3{
-    margin-left: 100px;
-    border-radius: 50px;
-}
-.parrafo3{
-
-    text-align: center;
-    align-items: center;
-    font-size: 30px;
-    border: 1px solid white;
-    border-radius: 5px;
-    margin: 0px 0px 0px 100px;
-    padding: 120px 50px 50px 20px;
-    width: 1000px;
-}
-.div3{
-    display: flex;
-    border: 1px solid white;
-    border-radius: 5px;
-    flex-direction: column;
-    margin: 20px 20px 20px 50px;
-    padding: 20px 20px 20px 20px;
-    
-}
-.sub3{
-    margin: 20px 0px 0px 50px;
-    
-}
-.comida3{
-    justify-content: space-around;
-    margin: 20px 80px 20px 50px;
-    flex-wrap: wrap;
-    font-size: 20px;
-    padding: 0px 0px 20px 0px;
-    
-}
-/*Gastronomia */
-
-/*Promociones */
- .subtitulo4{
-    margin: 20px 20px 20px 50px;
-}
-.div_arriba{
-    display: flex;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 20px 50px 20px 50px;
-
-}
-.img4{
-    margin: 50px 20px 20px 50px;
-    width: 900px;
-    padding-bottom: 30px;
-    border-radius: 50px;
-}
-.parrafo_arriba{
-    margin: 20px 80px 20px 20px;
-    font-size: 25px;
-   padding: 20px 0px 10px 30px;
-}
-.div_abajo{
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 50px 50px 50px 50px;
-}
-.parrafo4{
-    padding: 20px 20px 10px 20px;
-    font-size: 20px;
-}
-.parrafo_separado{
-    font-size: 20px;
-    margin: 20px 60px 10px 20px;
-}
-/*Promociones */
-
-/*Informacion */
- .subtitulo5{
-    margin: 20px 0px 0px 50px;
-}
-.div_info{
-    display: flex;
-    
-}
-.parrafo5{
-    margin: 30px 50px 50px 0px;
-    font-size: 25px;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 100px 50px 100px 50px;
-    text-align: center;
-    
-    
-    
-    
-}
-.img5{
-    margin: 10px 50px 50px 50px;
-    padding: 20px 20px 0px 0px;
-    border-radius: 50px;
-}
-.redes{
-    border: 1px solid white; 
-    border-radius: 10px;
-    margin: 50px 50px 50px 50px;
-    padding: 20px 10px 10px 10px;
-    width: 400px;
-}
-/*Informacion */
-
-/* formato celular iphone SE */
-
-
-@media (max-width:375px) {
-
-
-    /* index */
-
-.imagen1_arriba{
-    width: 250px;
-    padding-left: 100px;
-}
-.navbar-brand{
-    font-size: 20px;
-}
-.subtitulo1{
-font-size: 20px;
-padding-left: 100px;
-}
-.img1{
-    width: 250px;
-    border-radius: 20px;
-    padding-left: 10px;
-}
-.parrafo1{
-    font-size: 10px;
-    width: 250px;
-    padding-left: 10px;
-}
-.imagen1_abajo{
-    width: 230px;
-    padding-left: 50px;
-}
-.text1{
-    font-size: 10px;
-    padding: 0px 75px 0px 0px;
-}
-    /*Index*/
-
-    /*Promociones*/
-.subtitulo4{
-    font-size: 20px;
-    text-align: center;
-    padding-right: 50px;
+.cont-footer .text {
+  padding-right: 50px;
 }
 
-.div_arriba{
-    width: 355px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 0px 10px 10px;
+/* FOOTER */
+/* INDEX */
+.main-inicio {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
 }
-.img4{
-    width: 300px;
-    height: 250px;
-    margin-left: 25px;
-    border-radius: 0px;
+.main-inicio .img-inicio {
+  border-radius: 50px;
+  width: 650px;
 }
-.parrafo_arriba{
-    
-    font-size: 15px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 30px 0px 30px;
+.main-inicio .text-inicio {
+  padding: 10px 10px 10px 0px;
+  font-size: 18px;
 }
-.parrafo_separado{
-    font-size: 12px;
-    margin: 0px 0px 0px 0px;
-    padding: 10px 30px 0px 0px;
-
+.main-inicio .main-down-inicio {
+  margin: 10px 10px 10px 10px;
+  width: 650px;
+  font-size: 15px;
 }
-.div_abajo{
-    width: 355px;
-    margin: 10px 0px 10px 10px;
-}
-.parrafo4{
-    font-size: 12px;
-}
-.imagen1_determinada{
-    width: 170px;
-    margin: 0px 0px 0px 40px;
-}
-    /* Promociones*/
-
-
-     
-
-
-
-
-
+.main-inicio .main-down-inicio .entrada {
+  margin-top: 50px;
+  list-style: none;
+  padding-left: 0px;
 }
 
-    
+/* INDEX */
+/* CONTACTO */
+.main-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-contacto .img-contacto {
+  border-radius: 50px;
+  width: 650px;
+  height: 450px;
+}
 
-  
+.text-contacto {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.main-down-contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px 50px 20px 50px;
+  width: 650px;
+}
+.form .enviar {
+  margin: 10px 10px 0px 10px;
+  padding: 10px 30px 10px 30px;
+}
+
+/* CONTACTO */
+/* GASTRONOMIA */
+.main1-gastronomia {
+  display: flex;
+  justify-content: center;
+}
+.main1-gastronomia .img-gastronomia {
+  width: 650px;
+  height: 450px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+}
+.main1-gastronomia .parrafo3 {
+  width: 650px;
+  padding: 10px 10px 10px 10px;
+}
+
+/* GASTRONOMIA */
+/*Responsive Tablet  */
+/* Responsive Mobile */
+
+/*# sourceMappingURL=styles.css.map */
