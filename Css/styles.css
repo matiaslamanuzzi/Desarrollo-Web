@@ -14,10 +14,21 @@ body p {
 body a {
   padding: 10px 10px 10px 10px;
 }
+body div {
+  color: white;
+}
+body .container-fluid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.014), black);
+  border-radius: 25px;
+}
 
 /* HEAD  */
 /* HEADER */
-.imagen_arriba {
+.img-logo {
+  width: 200px;
+}
+
+.img-logo-abajo {
   width: 200px;
 }
 
@@ -59,12 +70,12 @@ body a {
   padding: 10px 10px 10px 0px;
   font-size: 18px;
 }
-.main-inicio .main-down-inicio {
+.main-inicio .main-abajo-inicio {
   margin: 10px 10px 10px 10px;
   width: 650px;
   font-size: 15px;
 }
-.main-inicio .main-down-inicio .entrada {
+.main-inicio .main-abajo-inicio .entrada {
   margin-top: 50px;
   list-style: none;
   padding-left: 0px;
@@ -122,26 +133,201 @@ body a {
   border-radius: 50px;
 }
 .main1-gastronomia .parrafo3 {
+  width: 500px;
+  padding: 60px 10px 10px 50px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.main2-gastronomia {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+.main2-gastronomia .t-desayuno, .main2-gastronomia .t-almuerzo {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 30px 20px 0px 20px;
+  width: 100%;
+}
+/* GASTRONOMIA */
+/* PROMOCIONES */
+.contenedor-arriba-promociones .img-promociones {
   width: 650px;
+  border-radius: 50px;
+  margin-left: 20%;
+}
+.contenedor-arriba-promociones .parrafo_arriba {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  padding: 10px 20px 10px 20px;
+}
+.contenedor-arriba-promociones .parrafo_abajo {
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 10px 0px 10px 0px;
   padding: 10px 10px 10px 10px;
 }
 
-/* GASTRONOMIA */
-/* PROMOCIONES */
-.div_arriba .img4 {
-  width: 650px;
-  border-radius: 50px;
+.contenedor-abajo-promociones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.contenedor-abajo-promociones .texto-eventos {
+  text-align: center;
+  border: 1px solid white;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
 }
 
 /* PROMOCIONES */
 /* INFORMACION */
-.div_info .img5 {
+.div_info {
+  display: flex;
+}
+.div_info .img-informacion {
   width: 650px;
   border-radius: 50px;
 }
+.div_info .parrafo5 {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 10px 0px 10px 30px;
+  padding: 50px 20px 10px 20px;
+  width: 650px;
+  text-align: center;
+}
+
+.redes {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /* INFORMACION */
-/*Responsive Tablet  */
+/*Responsive Portatil  */
+@media screen and (max-width: 1025px) {
+  /* INICIO */
+  body {
+    width: 1024px;
+    margin: 0px 0px 0px 0px;
+  }
+  .main-inicio {
+    width: 1024px;
+    margin: 0px 0px 0px 0px;
+  }
+  .main-inicio .img-inicio {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .main-abajo-inicio {
+    padding: 10px 10px 10px 10px;
+  }
+  /* INICIO */
+  /* GASTRONOMIA */
+  .main1-gastronomia .parrafo3 {
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 0px 20px;
+  }
+  /* GASTRONOMIA */
+  /* PROMOCIONES */
+  .img-promociones {
+    margin: 0px 0px 0px 0px;
+  }
+  /* PROMOCIONES */
+}
+/* Responsive Tableta */
+@media screen and (max-width: 769px) {
+  /* INICIO */
+  .subtitulo {
+    text-align: center;
+  }
+  .cont-logo, .cont-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-inicio {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .main-inicio .main-arriba-inicio {
+    margin-left: 200px;
+  }
+  .main-inicio .main-abajo-inicio {
+    margin-left: 200px;
+  }
+  /* INICIO */
+  /* PROMOCIONES */
+  .img-promociones {
+    margin-left: 50px;
+  }
+  /* PROMOCIONES */
+  /* INFORMACION */
+  .div_info {
+    display: block;
+  }
+}
+/* INFORMACION */
 /* Responsive Mobile */
+@media screen and (max-width: 426px) {
+  /* INICIO */
+  .main-inicio {
+    margin: 0px 0px 0px 0px;
+  }
+  .main-inicio .img-contacto {
+    margin: 0px 0px 0px 0px;
+    width: 350px;
+    border-radius: 10px;
+  }
+  .main-inicio .text-inicio {
+    width: 500px;
+  }
+  .main-abajo-inicio {
+    align-content: center;
+    width: 400px;
+  }
+  /* INICIO */
+  /* CONTACTO */
+  .main-contacto .img-contacto {
+    width: 350px;
+    height: 350px;
+  }
+  .main-contacto .main-down-contacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .main-contacto .main-down-contacto .form-texto {
+    flex-basis: 100px;
+    flex-grow: 1;
+    width: 100%;
+  }
+  /* CONTACTO */
+  /* GASTRONOMIA */
+  .main1-gastronomia {
+    display: block;
+  }
+  .main1-gastronomia .img-gastronomia {
+    width: 500px;
+    margin-left: 70px;
+  }
+  .main1-gastronomia .parrafo3 {
+    padding: 20px 20px 20px 20px;
+  }
+  .main2-gastronomia {
+    margin: 10px 20px 10px 70px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
